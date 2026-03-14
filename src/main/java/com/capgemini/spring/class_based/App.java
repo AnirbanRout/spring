@@ -17,6 +17,11 @@ public class App {
 
         System.out.println();
 
+        PojoClass pojoClass = applicationContext.getBean(PojoClass.class);
+        System.out.println(pojoClass);
+
+        System.out.println();
+
     }
 
 }
